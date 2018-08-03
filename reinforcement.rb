@@ -93,6 +93,5 @@ end
 
 megazord = Cohort.new(Date.new(2018,7,9))
 p megazord.last_day
-
-labour_day = Date.new(2018,9,3)
-p megazord.double_check_holiday(labour_day)
+p megazord.class_days
+p megazord.coffee_code_days
